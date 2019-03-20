@@ -1,5 +1,18 @@
-#table1scc {
-  background-color: gray;
+table {
+  border-collapse: collapse;
+  border: 2px solid black;
+  width: 50%;
+}
+table th, table td {
+  border: 1px solid black;
+  padding: 5px;
+  text-align: center;
+}
+table tr:nth-child(even) {
+  background-color: #a0beef;
+}
+table th {
+  background-color: lightgray;
 }
 
 .specialization {

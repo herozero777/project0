@@ -1,7 +1,22 @@
-$color:gray;
+$table_head_color:lightgray;
+$nth_color:#a0beef;
 
-#table1scc {
-  background-color:$color;
+table {
+    border-collapse: collapse;
+    border: 2px solid black;
+    width: 50%;
+
+    th, td {
+        border: 1px solid black;
+        padding: 5px;
+        text-align: center;
+    }
+
+    tr:nth-child(even) {background-color: $nth_color;}
+
+    th {
+        background-color: $table_head_color;
+    }
 }
 
 .specialization {
