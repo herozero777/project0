@@ -13,6 +13,16 @@ $nth_color:#bdcbf9;
   }
 }
 
+section {
+  h4 {
+    color: #363636;
+  }
+}
+
+span {
+  color: #A0A0A0;
+}
+// Example of Nesting
 table {
     border-collapse: collapse;
     border: 2px solid black;
@@ -52,8 +62,20 @@ $btn-bkcol-hov: #8793BA;
     text-decoration: none;
 }
 
+// Example of Ingeritence
+%style-lists {
+  letter-spacing: 3px;
+  text-shadow: 1px 1px 1px #555;
+  font-family: "Times New Roman", Times, serif;
+}
+.bio-notes {
+  @extend %style-lists;
+
+}
 .specialization {
-  color:#4fa586
+  @extend %style-lists;
+  color:#4fa586;
+  text-shadow: 1px 1px 5px #629e62;
 }
 
 /* Specific to resume.html */

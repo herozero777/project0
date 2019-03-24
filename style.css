@@ -8,6 +8,14 @@
     content: "Welcome To Ismail's Page!";
   }
 }
+section h4 {
+  color: #363636;
+}
+
+span {
+  color: #A0A0A0;
+}
+
 table {
   border-collapse: collapse;
   border: 2px solid black;
@@ -44,8 +52,15 @@ table th {
   text-decoration: none;
 }
 
+.specialization, .bio-notes {
+  letter-spacing: 3px;
+  text-shadow: 1px 1px 1px #555;
+  font-family: "Times New Roman", Times, serif;
+}
+
 .specialization {
   color: #4fa586;
+  text-shadow: 1px 1px 5px #629e62;
 }
 
 /* Specific to resume.html */
