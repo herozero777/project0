@@ -1,5 +1,17 @@
 $table_head_color:#a0beef;
-$nth_color:lightgray;
+$nth_color:#bdcbf9;
+
+@media (min-width: 576px) {
+  #welcome-h1::before {
+    content: "Welcome To My Page\!, My Name is Mohammad Ismail Tirmizi";
+  }
+}
+
+@media (max-width: 575px) {
+  #welcome-h1::after {
+    content: "Welcome To Ismail's Page!";
+  }
+}
 
 table {
     border-collapse: collapse;
