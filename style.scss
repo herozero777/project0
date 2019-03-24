@@ -1,5 +1,5 @@
-$table_head_color:lightgray;
-$nth_color:#a0beef;
+$table_head_color:#a0beef;
+$nth_color:lightgray;
 
 table {
     border-collapse: collapse;
@@ -19,12 +19,33 @@ table {
     }
 }
 
+$btn-bkcol: #7783AA;
+$btn-bkcol-hov: #8793BA;
+
+.btn-like-link {
+    display: block;
+    width: 215px;
+    background: #7783AA;
+    padding: 20px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    vertical-align: middle;
+}
+.btn-like-link:hover {
+    color: #abb4d1;
+    background: #6574a5;
+    text-decoration: none;
+}
+
 .specialization {
   color:#4fa586
 }
 
 /* Specific to resume.html */
-img {
+#lol-poster {
   alt: League of Legend Champions;
   width: 100%;
 }

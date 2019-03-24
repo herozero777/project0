@@ -9,10 +9,29 @@ table th, table td {
   text-align: center;
 }
 table tr:nth-child(even) {
-  background-color: #a0beef;
+  background-color: lightgray;
 }
 table th {
-  background-color: lightgray;
+  background-color: #a0beef;
+}
+
+.btn-like-link {
+  display: block;
+  width: 215px;
+  background: #7783AA;
+  padding: 20px;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  vertical-align: middle;
+}
+
+.btn-like-link:hover {
+  color: #abb4d1;
+  background: #6574a5;
+  text-decoration: none;
 }
 
 .specialization {
@@ -20,7 +39,7 @@ table th {
 }
 
 /* Specific to resume.html */
-img {
+#lol-poster {
   alt: League of Legend Champions;
   width: 100%;
 }
